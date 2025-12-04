@@ -53,6 +53,29 @@
       font-size: 1.1rem;
     }
 
+    .data-source-notice {
+      background: white;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(40, 54, 24, 0.1);
+      margin-bottom: 25px;
+      text-align: center;
+      color: var(--forest-dark);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .data-source-notice a {
+      color: var(--forest-medium);
+      text-decoration: underline;
+      font-weight: 500;
+    }
+
+    .data-source-notice a:hover {
+      text-decoration: underline;
+      color: var(--forest-dark);
+    }
+
     .controls {
       background: white;
       padding: 25px;
@@ -293,7 +316,11 @@
 <body>
   <div class="container">
     <h1>Neighborhood Captain Directory</h1>
-    <p class="subtitle">Find and connect with volunteer neighborhood captains</p>
+    <p class="subtitle">Find and connect with other Altagether Neighborhood Captains</p>
+
+    <div class="data-source-notice">
+      The data on this page is pulled from the <a href="https://docs.google.com/spreadsheets/d/1qBqGqnnb9arTsi6WQ_9MXGatc3kTXgghr9wL90k-wM8/edit?gid=435220575#gid=435220575" target="_blank">Neighborhood Captain Directory</a> spreadsheet. If you need to make corrections to your record, please do so at that link.
+    </div>
 
     <div class="stats" id="stats">
       <div class="stat-card">
